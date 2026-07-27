@@ -1,72 +1,132 @@
+import insuranceImg from "../assets/images/insurance-dashboard.png";
+import portfolioImg from "../assets/images/portfolio-home.png";
+
 const projects = [
   {
-    title: "Wedding Management System",
-    description: "Designed and developed a Wedding Management System using Java and Object-Oriented Programming principles. Implemented modules for managing guest information, event details, and bookings while applying concepts such as encapsulation, inheritance, and collections. The project showcases problem-solving skills and the ability to design structured Java applications.",
-    tech: ["Java", "OOP", "Collections"],
+    id: 1,
+    featured: true,
 
-    details: {
-      features: [
-        "Guest Management",
-        "Booking Management",
-        "Event Tracking"
-      ],
+    title: "Insurance Policy Management System",
 
-      challenges:
-        "Managing multiple entities and relationships using OOP concepts.",
+    image: insuranceImg,
 
-      github:
-        "https://github.com/Alokkumar1706"
-    }
-  },
-  {
-    title: "Authentication App",
-    description: "Built a secure authentication and authorization application using React. Implemented user login and signup functionality, protected routes, form validation, and state management. The project demonstrates frontend authentication flow, user session handling, and responsive UI development using modern React concepts.",
-    tech: ["React", "JavaScript", "CSS"],
+    description:
+      "A full-stack Insurance Management System built with Spring Boot and React.js. It enables secure policy management, purchases, claims processing, and dashboard analytics using JWT authentication.",
 
-    details: {
-      features: [
-        "Login",
-        "Signup",
-        "Protected Routes"
-      ],
-
-      challenges:
-        "Handling user authentication and route protection.",
-
-      github:
-        "https://github.com/Alokkumar1706"
-    }
-  },
-
-  {
-  title: "JDBC CRUD Application",
-
-  description:
-  "Developed a Java-based CRUD application using JDBC and MySQL. Implemented Create, Read, Update, and Delete operations with database connectivity, SQL queries, and exception handling. The project demonstrates practical experience in database interaction, data persistence, and backend development using Core Java and JDBC.",
-
-  tech: [
-    "Java",
-    "JDBC",
-    "MySQL"
-  ],
-
-  size: "wide",
-
-  details: {
-    features: [
-      "Create Record",
-      "Read Record",
-      "Update Record",
-      "Delete Record"
+    tech: [
+      "Spring Boot",
+      "React",
+      "MySQL",
+      "JWT",
+      "Spring Security",
+      "REST API",
     ],
 
-    challenges:
-      "Connecting Java application with MySQL database using JDBC.",
+    features: [
+      "Role-Based Authentication",
+      "Policy Purchase",
+      "Claim Management",
+      "Dashboard Analytics",
+      "Responsive UI",
+      "Admin Dashboard",
+    ],
 
     github:
-      "https://github.com/Alokkumar1706"
-  }
-},
+      "https://github.com/Alokkumar1706/insurance-policy-management-frontend",
+
+    live: "",
+  },
+
+  {
+    id: 2,
+
+    featured: false,
+
+    title: "Personal Portfolio",
+
+    image: portfolioImg,
+
+    description:
+      "Modern responsive developer portfolio showcasing projects, technical skills, achievements, and contact information with smooth animations.",
+
+    tech: [
+      "React",
+      "Tailwind CSS",
+      "Framer Motion",
+      "Vite",
+    ],
+
+    features: [
+      "Responsive Design",
+      "Smooth Animations",
+      "Dark Theme",
+      "Modern UI",
+    ],
+
+    github:
+      "https://github.com/Alokkumar1706/Alok-portfolio",
+
+    live:
+      "https://alok-portfolio-psi-green.vercel.app/",
+  },
+
+  {
+    id: 3,
+
+    featured: false,
+
+    title: "Banking Transaction Management System",
+
+    image: null,
+
+    description:
+      "Console-based Java application demonstrating transaction management using JDBC and MySQL.",
+
+    tech: [
+      "Java",
+      "JDBC",
+      "MySQL",
+    ],
+
+    features: [
+      "Transaction Management",
+      "CRUD Operations",
+      "Database Connectivity",
+    ],
+
+    github:
+      "https://github.com/Alokkumar1706/JDBC-TRANSACTION-MANAGEMENT",
+
+    live: "",
+  },
+
+  {
+    id: 4,
+
+    featured: false,
+
+    title: "Employee Management System",
+
+    image: null,
+
+    description:
+      "Currently under development. A full-stack employee management system with authentication, CRUD operations, search, pagination, and dashboard.",
+
+    tech: [
+      "Spring Boot",
+      "React",
+      "MySQL",
+      "JWT",
+    ],
+
+    features: [
+      "Coming Soon",
+    ],
+
+    github: "",
+
+    live: "",
+  },
 ];
 
 export default projects;

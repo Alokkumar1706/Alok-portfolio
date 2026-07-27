@@ -13,33 +13,28 @@ const Projects = () => {
     >
       <div className="max-w-7xl mx-auto">
 
-        <h2
-          className="
-          text-5xl
-          font-bold
-          text-center
-          mb-16"
-        >
-          Projects
-        </h2>
+       <h2 className="text-5xl font-bold text-center">
+  MY PROJECTS
+</h2>
+
+<p className="text-xl text-gray-400 text-center mt-4">
+  Featured Work & Recent Projects
+</p>
 
         <div
   className="
-  grid
-  md:grid-cols-3
-  gap-6"
+grid
+lg:grid-cols-3
+md:grid-cols-2
+gap-8"
 >
-          {projects.map(
-            (project, index) => (
-              <ProjectCard
-              key={index}
-              {...project}
-              onClick={() =>
-                setSelectedProject(project)
-              }
-            />
-            )
-          )}
+          {projects.map((project) => (
+  <ProjectCard
+    key={project.id}
+    project={project}
+    onClick={() => {console.log(project);setSelectedProject(project)}}
+  />
+))}
         </div>
         <ProjectModal
   project={selectedProject}
