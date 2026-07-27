@@ -32,7 +32,7 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto px-5 md:px-8 h-20 flex justify-between items-center">
 
         <h1 className="font-bold text-xl md:text-2xl text-green-400">
-          Alok.dev
+          Alok Kumar
         </h1>
 
         {/* Desktop Menu */}
