@@ -130,7 +130,7 @@ const Hero = () => {
 
         <div>
           <h2 className="text-3xl font-bold text-green-500">
-            5+
+            4+
           </h2>
           <p className="text-gray-400">
             Major Projects
@@ -139,7 +139,7 @@ const Hero = () => {
 
         <div>
           <h2 className="text-3xl font-bold text-green-500">
-            7.55
+            7.86
           </h2>
           <p className="text-gray-400">
             CGPA

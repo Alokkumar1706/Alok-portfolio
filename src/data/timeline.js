@@ -3,35 +3,35 @@ const timeline = [
     year: "2022",
     title: "Started B.Tech",
     description:
-      "Started Computer Science Engineering at IKGPTU."
+      "Began my Computer Science & Engineering journey at I.K. Gujral Punjab Technical University."
   },
 
   {
     year: "2023",
-    title: "Learned Core Java",
+    title: "Programming Foundations",
     description:
-      "Mastered OOP, Collections and Exception Handling."
+      "Built a strong foundation in Java, Object-Oriented Programming, SQL, and problem-solving."
   },
 
   {
     year: "2024",
-    title: "Built JDBC Projects",
+    title: "Backend Development",
     description:
-      "Worked with MySQL and CRUD applications."
+      "Worked with Core Java, JDBC, MySQL, Collections, and developed backend applications."
   },
 
   {
     year: "2025",
-    title: "Learned React",
+    title: "Full Stack Development",
     description:
-      "Built authentication and frontend projects."
+      "Learned React, Spring Boot, REST APIs, JWT, and started building complete full-stack projects."
   },
 
   {
     year: "2026",
-    title: "Learning Spring Boot",
+    title: "Career Ready",
     description:
-      "Moving towards Full Stack Development."
+      "Built real-world projects, strengthened development skills, and preparing to begin my career as a Java Full Stack Developer."
   }
 ];
 
